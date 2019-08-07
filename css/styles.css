@@ -379,6 +379,11 @@ p {
   cursor: pointer;
 }
 
+.bg-gradient-orange{
+  background-color: #fc9842;
+background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
+
+}
 .social-btn .icon-wrapper {
   margin-right: 10px;
   vertical-align: middle;
