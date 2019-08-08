@@ -9,27 +9,27 @@
   "lang": "en-US",
   "icons": [
     {
-      "src": "images/assets/pwa/icon72.png",
+      "src": "images/assets/pwa/image(36).jpeg",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "images/assets/pwa/icon96.png",
+      "src": "images/assets/pwa/image(36).jpeg",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "images/assets/pwa/icon128.png",
+      "src": "images/assets/pwa/image(36).jpeg",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "images/assets/pwa/icon144.png",
+      "src": "images/assets/pwa/image(36).jpeg",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "images/assets/pwa/icon152.png",
+      "src": "images/assets/pwa/image(36).jpeg",
       "sizes": "152x152",
       "type": "image/png"
     },
