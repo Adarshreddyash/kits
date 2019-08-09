@@ -378,7 +378,10 @@ p {
   border-radius: 2px;
   cursor: pointer;
 }
-
+.bg-gradient-dark{
+  background-color: #485461;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
 .bg-gradient-orange{
   background-color: #fc9842;
 background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
@@ -2189,4 +2192,171 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
 .zoom:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+  background: none;
+  color: #CACACA;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+  position: relative;
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-top: 20px;
+  margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  opacity: 0.4;
+  overflow: hidden;
+  transition: all .4s ease-in;
+  vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+  width: 128px;
+  height: 128px;
+  opacity: 1;
+  transition: all .2s;
+}
+.item blockquote {
+  border-left: none;
+  margin: 0;
+}
+.item blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px;
+}
+
+/*testimonial css*/
+.client-testimonial .drop-shadow {
+  -webkit-filter: drop-shadow(0px 15px 50px rgba(2, 173, 136, 0.2));
+  -moz-filter: drop-shadow(0px 15px 50px rgba(2, 173, 136, 0.2));
+  -o-filter: drop-shadow(0px 15px 50px rgba(2, 173, 136, 0.2));
+  filter: drop-shadow(0px 15px 50px rgba(2, 173, 136, 0.2)); }
+.bg-5 {
+    background-image: url("http://regaltheme.com/tf/multi/rnr/assets/img/bg/5.png");
+    background-position: center 65%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.client-testimonial .client-nav .nav-item {
+  position: absolute;
+  z-index: 5;
+  width: 10.5rem; }
+  .client-testimonial .client-nav .nav-item:nth-child(1) {
+    top: 2.5rem;
+    right: 16%;
+    width: 7rem; }
+  .client-testimonial .client-nav .nav-item:nth-child(2) {
+    bottom: 3rem;
+    right: 0; }
+    @media (min-width: 1281px) {
+      .client-testimonial .client-nav .nav-item:nth-child(2) {
+        right: -3rem; } }
+  .client-testimonial .client-nav .nav-item:nth-child(3) {
+    bottom: 9rem;
+    left: 4%; }
+  .client-testimonial .client-nav .nav-item:nth-child(4) {
+    top: -2rem;
+    left: 0;
+    width: 7rem; }
+    @media (min-width: 1281px) {
+      .client-testimonial .client-nav .nav-item:nth-child(4) {
+        left: -8rem; } }
+  .client-testimonial .client-nav .nav-item:nth-child(5) {
+    top: -9rem;
+    right: 0;
+    width: 7rem; }
+    @media (min-width: 1281px) {
+      .client-testimonial .client-nav .nav-item:nth-child(5) {
+        right: -5.5rem; } }
+  @media (max-width: 767.98px) {
+    .client-testimonial .client-nav .nav-item {
+      position: relative !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: inherit;
+      width: 7rem !important; } }
+
+.client-testimonial .tab-content .fade {
+  -webkit-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in; }
+
+.client-testimonial .tab-content .client-thumb {
+  width: 10.5rem; }
+
+.client-testimonial .tab-content .client-desc {
+  -webkit-box-shadow: 0px 15px 50px 0px rgba(221, 25, 25, 0.06);
+  box-shadow: 0px 15px 50px 0px rgba(115, 115, 115, 0.06);
+  min-height: 21rem;
+  padding: 2rem; }
+  .client-testimonial .tab-content .client-desc h6 {
+    font-size: 1.3rem; }
+.section-ptb, .section-pt, .section-pb {
+  padding-top: 12rem;
+  padding-bottom: 12rem; }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .section-ptb, .section-pt, .section-pb {
+      padding-top: 8rem;
+      padding-bottom: 8rem; } }
+  @media (max-width: 767.98px) {
+    .section-ptb, .section-pt, .section-pb {
+      padding-top: 6rem;
+      padding-bottom: 6rem; } }
+      hr.line {
+  margin: 0;
+  border-color: #1100ff;
+  border-width: 1px;
+  width: 4.5rem; }
+  hr.line.line-sm {
+    width: 8.6rem;
+}
+hr.line.bw-2 {
+    border-width: 2px;
+}
+.mb-5 {
+    margin-bottom: 0.5rem !important;
+}
+.mb-80 {
+  margin-bottom: 8rem !important; }
+  .mb-20 {
+  margin-bottom: 2rem !important; }
+  .mb-25 {
+  margin-bottom: 2.5rem !important; }
+img {
+  max-width: 100%;
+}
+
+.avatar2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;
+  object-fit: cover;
+}
+
+.test-bg{
+    background-image: url("http://t.commonsupport.com/adro/images/icons/icon-cloud-4.png");
+    background-position: center 65%;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
